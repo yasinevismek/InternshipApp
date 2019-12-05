@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fragIntern_ivUser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/logo"
+            app:civ_border_color="@color/darkGrey"
+            app:civ_border_width="3dp" />
+
+        <TextView
+            android:id="@+id/user_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name" />
+
+        <TextView
+            android:id="@+id/user_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name" />
+
+        <TextView
+            android:id="@+id/user_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name" />
+
+        <TextView
+            android:id="@+id/user_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name" />
+
+        <TextView
+            android:id="@+id/user_social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user name" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

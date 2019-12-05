@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_section_background"
+    tools:context=".ProfileScreenActivityFragments.UserEditFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fragUserEdit_ivEditUser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/logo"
+            app:civ_border_color="@color/darkGrey"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragUserEdit_tvPhotoChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/fragUserEdit_tvPhotoChangeText"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_ivEditUser" />
+
+        <TextView
+            android:id="@+id/fragUserEdit_tvTitleUserFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/fragUserEdit_tvTitleUserFullNameText"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_tvPhotoChange" />
+
+        <EditText
+            android:id="@+id/fragUserEdit_etEditUserFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextstyle"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/fragUserEdit_etEditUserFullNameText"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_tvTitleUserFullName" />
+
+        <TextView
+            android:id="@+id/fragUserEdit_tvTitleEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/fragUserEdit_tvTitleEmailText"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_etEditUserFullName" />
+
+        <EditText
+            android:id="@+id/fragUserEdit_etEditEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextstyle"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/fragUserEdit_etEditEmailText"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_tvTitleEmail" />
+
+        <TextView
+            android:id="@+id/fragUserEdit_tvTitleSchoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/fragUserEdit_tvTitleSchoolNameText"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_etEditEmail" />
+
+
+        <EditText
+            android:id="@+id/fragUserEdit_etEditSchoolName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextstyle"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/fragUserEdit_etEditSchoolNameText"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_tvTitleSchoolName" />
+
+        <TextView
+            android:id="@+id/fragUserEdit_tvTitleSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/fragUserEdit_tvTitleSectionText"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_etEditSchoolName" />
+
+        <EditText
+            android:id="@+id/fragUserEdit_etEditSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextstyle"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/fragUserEdit_etEditSectionText"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_tvTitleSection" />
+
+        <TextView
+            android:id="@+id/fragUserEdit_tvTitleInternDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/fragUserProfile_tvTitleInternDateText"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_etEditSection" />
+
+        <EditText
+            android:id="@+id/fragUserEdit_etEditInternDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextstyle"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/fragUserEdit_etEditInternDateText"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_tvTitleInternDate" />
+
+
+        <TextView
+            android:id="@+id/fragUserEdit_tvTitleSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/fragUserProfile_tvTitleSocialText"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_etEditInternDate" />
+
+        <EditText
+            android:id="@+id/fragUserEdit_etEditSocial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittextstyle"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/fragUserEdit_etEditSocialText"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_tvTitleSocial" />
+
+        <Button
+            android:id="@+id/fragUserEdit_btSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="124dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/button_style_2"
+            android:drawablePadding="-24dp"
+            android:drawableStart="@drawable/ic_save_black_24dp"
+            android:text="@string/fragUserEdit_btSaveText"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragUserEdit_etEditSocial" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

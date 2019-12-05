@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/activityWelcome_ivLogo1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/activityWelcome_ivLogo2"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/logotext"
+        app:layout_constraintEnd_toEndOf="@+id/activityWelcome_ivLogo1"
+        app:layout_constraintStart_toStartOf="@+id/activityWelcome_ivLogo1"
+        app:layout_constraintTop_toBottomOf="@+id/activityWelcome_ivLogo1" />
+
+    <ImageView
+        android:id="@+id/activityWelcome_ivWelcome"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/welcome_text"
+        app:layout_constraintEnd_toEndOf="@+id/activityWelcome_ivLogo2"
+        app:layout_constraintStart_toStartOf="@+id/activityWelcome_ivLogo2"
+        app:layout_constraintTop_toBottomOf="@+id/activityWelcome_ivLogo2" />
+
+    <TextView
+        android:id="@+id/activityWelcome_tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:text="@string/activityWelcome_tvDateText"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/activityWelcome_ivWelcome"
+        app:layout_constraintStart_toStartOf="@+id/activityWelcome_ivWelcome"
+        app:layout_constraintTop_toBottomOf="@+id/activityWelcome_ivWelcome" />
+
+    <Button
+        android:id="@+id/activityWelcome_btLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_style_1"
+        android:clickable="true"
+        android:drawablePadding="-24dp"
+        android:drawableStart="@drawable/ic_input_black_24dp"
+        android:focusable="true"
+        android:text="@string/activityWelcome_btLogInText"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityWelcome_tvDate" />
+
+
+    <Button
+        android:id="@+id/activityWelcome_btSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style_2"
+        android:clickable="true"
+        android:drawablePadding="-24dp"
+        android:drawableStart="@drawable/signup_orange"
+        android:focusable="true"
+        android:text="@string/activityWelcome_btSignUpText"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/activityWelcome_btLogIn"
+        app:layout_constraintStart_toStartOf="@+id/activityWelcome_btLogIn"
+        app:layout_constraintTop_toBottomOf="@+id/activityWelcome_btLogIn" />
+
+</android.support.constraint.ConstraintLayout>

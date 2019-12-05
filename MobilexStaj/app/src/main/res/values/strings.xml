@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">MobileX Intern</string>
+
+    <!--TODO*****************************WELCOME SCREEN STRING***********************************-->
+
+    <string name="activityWelcome_btLogInText">LOGIN</string>
+    <string name="activityWelcome_btSignUpText">SIGN UP</string>
+    <string name="activityWelcome_tvDateText">GÜNCEL TARİH</string>
+
+    <!--TODO*****************************LOGIN SCREEN STRING*************************************-->
+
+    <string name="activityLogIn_etEmailText">E-mail</string>
+    <string name="activityLogIn_etPasswordText">Password</string>
+    <string name="activityLogIn_btLogInText">LOGIN</string>
+    <string name="activityLogIn_tvForgotPassText">Forgot password?</string>
+
+    <!--TODO*****************************SIGN UP SCREEN STRING***********************************-->
+
+    <string name="activitySignUp_etUsernameText">User full name</string>
+    <string name="activitySignUp_etPasswordText">Password</string>
+    <string name="activitySignUp_etPasswordConfirmText">Confirm Password</string>
+    <string name="activitySignUp_etEmailText">E-mail</string>
+    <string name="activitySignUp_btSignUpText">SIGN UP</string>
+
+    <!--TODO*****************************PASSWORD SCREEN STRING**********************************-->
+
+    <string name="activityPassword_etEmailText">E-mail</string>
+    <string name="activityPassword_btResPassText">RESET PASSWORD</string>
+
+    <!--TODO****************************NAVIGATION DRAWER STRING*********************************-->
+
+    <string name="title_activity_profile__screen_">MobileX Internship</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navHeader_tvUserNameText">User Name</string>
+    <string name="navHeader_tvUserEmailText">user.mail@mobilex.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Profile Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="refresh">Refresh</string>
+
+    <!--TODO*********************************FRAGMENT ABOUT**************************************-->
+
+    <string name="fragAboutBase_btBackText">BACK</string>
+    <string name="fragAboutBase_btNextText">NEXT</string>
+
+    <!--TODO******************************FRAGMENT ABOUT SLIDE 1*********************************-->
+
+    <string name="fragAboutSlide1_tvTitle1Text">Sizi Gördüğümüze Sevindik</string>
+    <string name="fragAboutSlide1_tvTitle2Text">Bağımlısı Olacağınız Uygulamalar Yapıyoruz...</string>
+    <string name="fragAboutSlide1_tvAboutText">\t\t\tSize aklınıza dahi gelmeyecek ihtiyaçlarınız olduğunu gösteren bir grup insanız.\n\n\t\t\tMerak ettiğiniz, keşke olsaydı dediğiniz tüm fikirleriniz bizde hayat bulacak. Yapmak istediğinizin çok, zamanınızın az olduğunu biliyoruz. Bunun için yeni teknolojiler geliştiriyoruz. Ürünlerimizi mobil, web ve bulut bilişimin tüm olanaklarını kullanarak size zaman kazandıracak birer değer haline getiriyoruz.\n\n\t\t\tAmacımız, size ihtiyacınız olan değeri vermek, Sizin de bu `değeri` kullanmanızı, istiyoruz.</string>
+
+    <!--TODO******************************FRAGMENT ABOUT SLIDE 2*********************************-->
+
+    <string name="fragAboutSlide2_tvTitleText">MobileX Team</string>
+    <string name="fragAboutSlide2_tvAlperText">Alper Ay\n\nTeam Lead</string>
+    <string name="fragAboutSlide2_tvFiratText">Fırat Turan\n\nAndroid Developer</string>
+    <string name="fragAboutSlide2_tvNazmiText">Nazmican Gökbulut\n\nIntern</string>
+    <string name="fragAboutSlide2_tvYasinText">Yasin Evişmek\n\nIntern</string>
+
+    <!--TODO******************************FRAGMENT ABOUT SLIDE 3*********************************-->
+
+    <string name="fragAboutSlide3_tvTitleText">\t\t\tBazıları yapmış olmak için uygulama yapar, Biz onlar gibi degiliz, Her ayrıntısıyla fark edilen uygulamalar yaparız</string>
+    <string name="fragAboutSlide3_ivSmileText">%88\nOlumlu APP oylaması</string>
+    <string name="fragAboutSlide3_tvMobileText">1\nBitmiş proje</string>
+    <string name="fragAboutSlide3_tvDownloadText">10M+\nToplam indirme</string>
+
+    <!--TODO******************************FRAGMENT CONTACT BASE**********************************-->
+
+    <string name="fragContactBase_btBackText">BACK</string>
+    <string name="fragContactBase_btNextText">NEXT</string>
+    <string name="title_activity_contact_us__maps_">Map</string>
+
+    <!--TODO***************************FRAGMENT CONTACT SLIDE MESSAGE****************************-->
+
+    <string name="fragContactMessage_tvTitleText">Temasa Geçin</string>
+    <string name="fragContactMessage_tvTitle2Text">Bağımlısı olacağınız uygulamalar yapıyoruz</string>
+    <string name="fragContactMessage_tvAddressText">Mistral Tower, Çınarlı Mahallesi, Ankara Caddesi</string>
+    <string name="fragContactMessage_tvAddress3Text">Konak/İzmir/Turkey</string>
+    <string name="fragContactMessage_tvAddress2Text">No:15 D:251</string>
+    <string name="fragContactMessage_tvMailText">info@mobilex.com.tr</string>
+    <string name="fragContactMessage_etFullNameText">Tam Adınız</string>
+    <string name="fragContactMessage_etMailText">E-Mail Adresiniz</string>
+    <string name="fragContactMessage_etMessageText">Mesaj</string>
+    <string name="fragContactMessage_btSendText">Mesajı Gönder</string>
+
+    <!--TODO******************************FRAGMENT OUR APPS BASE*********************************-->
+
+    <string name="fragOurAppsBase_btBackText">Back</string>
+    <string name="fragOurAppsBase_btNextText">Next</string>
+
+    <!--TODO*****************************FRAGMENT OUR APPS SLIDE 1*******************************-->
+
+    <string name="fragment_ourapps_slide1_slogan1_text">Reports+ ile tanışın...</string>
+    <string name="fragOurAppsSlide1_tvTitle1Text">Reports+ neyi merak ettiğinizi biliyor!</string>
+    <string name="fragOurAppsSlide1_tvTitle2Text">Reports+ u deneyin. Başarısını kendiniz görün...</string>
+
+    <!--TODO*****************************FRAGMENT OUR APPS SLİDE 2*******************************-->
+
+    <string name="fragment_ourapps_slide2_slogan1_text">Fire ile tanışın...</string>
+    <string name="fragOurAppsSlide2_tvTitle1Text">Fire, yeni nesil için, yeni nesil tarafından geliştirildi.\n\nFire size bambaşka bir mobil ve sosyal ağ deneyimi sunacak...</string>
+
+    <!--TODO*****************************FRAGMENT OUR APPS SLİDE 3*******************************-->
+
+    <string name="fragment_ourapps_slide3_slogan1_text">Thatsup ile tanışın...</string>
+    <string name="fragOurAppsSlide3_tvTitle1Text">Çevrenizde neler olduğunu keşfedin</string>
+    <string name="fragOurAppsSlide3_tvTitle2Text">Thatsup ı deneyin, başarısını kendiniz görün.</string>
+
+    <!--TODO**********************************USER PROFILE***************************************-->
+
+    <string name="fragUserProfile_tvInfoUserFullNameText">User Full Name</string>
+    <string name="fragUserProfile_tvInfoSchoolNameText">School Name</string>
+    <string name="fragUserProfile_tvTitleEmailText">Email</string>
+    <string name="fragUserProfile_tvInfoEmailText">Email Bilgisi</string>
+    <string name="fragUserProfile_tvTitleSectionText">Bölüm - Sınıf</string>
+    <string name="fragUserProfile_tvInfoSectionText">Üni. Bölüm ve Sınıf Bilgileri</string>
+    <string name="fragUserProfile_tvTitleInternDateText">Staj Başlangıç-Bitiş Tarihi</string>
+    <string name="fragUserProfile_tvInfoInternDateText">Staj Tarih Bilgileri</string>
+    <string name="fragUserProfile_tvTitleSocialText">Sosyal Ağ Bilgileri</string>
+    <string name="fragUserProfile_tvInfoSocialText">Web Site - Youtube - Facebook vb.</string>
+
+    <!--TODO*********************************USER PROFILE EDIT***********************************-->
+
+    <string name="fragUserEdit_tvPhotoChangeText">Fotoğrafı Değiştir</string>
+    <string name="fragUserEdit_tvTitleUserFullNameText">Ad Soyad</string>
+    <string name="fragUserEdit_etEditUserFullNameText">Ad Soyad</string>
+    <string name="fragUserEdit_tvTitleEmailText">Email</string>
+    <string name="fragUserEdit_etEditEmailText">Email</string>
+    <string name="fragUserEdit_tvTitleSchoolNameText">Okul Adı</string>
+    <string name="fragUserEdit_etEditSchoolNameText">Okul Adı</string>
+    <string name="fragUserEdit_tvTitleSectionText">Üniversite Bölüm Sınıf Bilgileri</string>
+    <string name="fragUserEdit_etEditSectionText">Üniversite Bölüm Sınıf Bilgileri</string>
+    <string name="fragUserEdit_etEditInternDateText">Staj Başlangıç-Bitiş Tarihleri</string>
+    <string name="fragUserEdit_etEditSocialText">Web Site - YouTube - Facebook vb.</string>
+    <string name="fragUserEdit_btSaveText">Kaydet</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+

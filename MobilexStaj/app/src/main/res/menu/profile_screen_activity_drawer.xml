@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Blog" />
+        <item
+            android:id="@+id/nav_useraccount"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Interns" />
+        <item
+            android:id="@+id/nav_mynotes"
+            android:icon="@drawable/ic_note_black_24dp"
+            android:title="My Notes" />
+        <item
+            android:id="@+id/nav_usefullinks"
+            android:icon="@drawable/ic_insert_link_black_24dp"
+            android:title="Useful Links" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_wb_cloudy_black_24dp"
+            android:title="Weather" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+    <item android:title="MobileX">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_store_black_24dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_apps"
+                android:icon="@drawable/ic_smartphone_black_24dp"
+                android:title="Our Apps" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contacts_black_24dp"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+
+</menu>

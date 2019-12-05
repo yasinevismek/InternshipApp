@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO**************************************APPS*******************************************-->
+    <color name="colorPrimary">#232F34</color>
+    <color name="colorPrimaryDark">#232F34</color>
+    <color name="colorAccent">#F9AA33</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name ="whitetransparetn">#80ffffff</color>
+    <color name ="whitetransparent2">#00f7f7f7</color>
+    <color name ="pink">#FF0266</color>
+    <!--<color name="colorPrimary">#094a59</color>-->
+    <!--<color name="colorPrimaryDark">#094a59</color>-->
+    <!--<color name="colorAccent">#ffff</color>-->
+    <!--<color name="transparent">#00ffffff</color>-->
+
+    <!--TODO***********************************BLACK&WHİTE***************************************-->
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--TODO*************************************GREEN*******************************************-->
+
+    <color name="lightGreen">#ceecb8</color>
+
+    <!--TODO**************************************BLUE*******************************************-->
+
+    <color name="darkBlue">#172ba6</color>
+    <color name="lightBlue">#C5CAE9</color>
+
+    <!--TODO**************************************GREY*******************************************-->
+
+    <color name="lightGrey">#4A6572</color>
+    <color name="darkGrey">#344955</color>
+
+
+
+</resources>

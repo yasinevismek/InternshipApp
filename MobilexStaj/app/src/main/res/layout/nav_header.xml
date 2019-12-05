@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nav_header_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:context=".ProfileScreenActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:id="@+id/navHeader_ivUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/logo"
+        app:civ_border_color="@color/darkGrey"
+        app:civ_border_width="3dp" />
+
+
+    <TextView
+        android:id="@+id/navHeader_tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="@string/navHeader_tvUserNameText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/navHeader_tvUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:maxLines="1"
+        android:text="@string/navHeader_tvUserEmailText"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>
+<!--<ImageView-->
+<!--android:layout_marginLeft="20dp"-->
+<!--android:id="@+id/navHeader_ivLogo"-->
+<!--android:layout_width="150dp"-->
+<!--android:layout_height="100dp"-->
+<!--android:contentDescription="@string/nav_header_desc"-->
+<!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+<!--app:srcCompat="@drawable/logotext" />-->
